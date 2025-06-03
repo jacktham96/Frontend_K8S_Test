@@ -19,7 +19,7 @@ jobs:
         password: Kit_960611565181
 
     - name: Build Docker image
-      run: docker build -t your-dockerhub-user/your-app:${{ github.ref_name }} .
+      run: docker build -t jacktham/frontend:${{ github.ref_name }} .
 
     - name: Push Docker image
-      run: docker push your-dockerhub-user/your-app:${{ github.ref_name }}
+      run: docker push jacktham/frontend:${{ github.ref_name }}
