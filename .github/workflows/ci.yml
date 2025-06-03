@@ -15,8 +15,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: jacktham
-        password: kit_960611565181
+        username: jack.tham@kkday.com
+        password: Kit_960611565181
 
     - name: Build Docker image
       run: docker build -t your-dockerhub-user/your-app:${{ github.ref_name }} .
