@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to React</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save taaaaao reload.
         </p>
       </header>
     </div>
